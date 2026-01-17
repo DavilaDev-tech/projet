@@ -1,0 +1,12 @@
+# Ignorer les dossiers système
+.vscode/
+.DS_Store
+
+# Ignorer les fichiers de configuration contenant des mots de passe
+config/db.php
+
+# Ignorer les images téléchargées par les utilisateurs
+uploads/*
+
+# Sauf le fichier de garde (si tu en as un)
+!uploads/.gitkeep
